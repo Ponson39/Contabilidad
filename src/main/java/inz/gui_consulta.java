@@ -346,7 +346,7 @@ public class gui_consulta extends javax.swing.JFrame {
     }//GEN-LAST:event_jTextFiel_BR1ActionPerformed
 
     private void Button_VerPUCActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Button_VerPUCActionPerformed
-        GUIPUC puc = new GUIPUC(this, false);
+        GUIPUC puc = new GUIPUC(this, true);
         puc.setVisible(true);
         
         System.out.println("Codigo: " + puc.codigo());
